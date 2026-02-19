@@ -62,7 +62,7 @@ This approach mirrors real-world scenarios where source parsing is imperfect.
 ### 1. Suspicious rundll32.exe Execution
 
 - Focus: LOLBin abuse via signed binary proxy execution
-- Technique: MITRE ATT&CK T1218.011
+- Technique: MITRE ATT&CK: T1218.011 — Signed Binary Proxy Execution (rundll32)
 - Logic:
   - Detect rundll32.exe process creation events
   - Analyze full command-line context
